@@ -42,7 +42,7 @@ pipeline {
                 script {
                     echo "Loading [${env.CLAIR_SCRIPT}]..."
                     if(env.CLAIR_SCRIPT && env.CLAIR_SCRIPT != '--') {
-                        load "./${env.CLAIR_SCRIPT}.groovy"
+                        load "./clair/${env.CLAIR_SCRIPT}.groovy"
                     } else {
                         echo "😴 No script selected. Exiting."
                     }
