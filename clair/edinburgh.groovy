@@ -64,11 +64,7 @@ def imagesToScan = [
     'nexus3.edgexfoundry.org:10004/edgex-ui-clojure:1.0.0-arm64'
 ]
 
-node {
-    stage('🐳 Edinburgh Clair Scan') {
-        imagesToScan.each { image ->
-            println edgeXClair(image)
-            println "--------------------------------------------"
-        }
-    }
+imagesToScan.each { image ->
+    println edgeXClair(image)
+    println "--------------------------------------------"
 }

@@ -59,21 +59,7 @@ def imagesToScan = [
     'edgexfoundry/docker-edgex-mongo:0.8.0'
 ]
 
-pipeline {
-    agent none
-
-    stages {
-        stage('🐳 Delhi Clair Scan') {
-            steps {
-                script {
-                    imagesToScan.each { image ->
-                        println edgeXClair(image)
-                        println "--------------------------------------------"
-                    }
-                }
-            }
-        }
-    }
-
+imagesToScan.each { image ->
+    println edgeXClair(image)
+    println "--------------------------------------------"
 }
-

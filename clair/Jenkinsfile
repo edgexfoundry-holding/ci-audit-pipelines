@@ -37,7 +37,7 @@ pipeline {
             }
         }
 
-        stage('') {
+        stage('Clair Image Scan') {
             steps {
                 script {
                     echo "Loading [${env.CLAIR_SCRIPT}]..."
