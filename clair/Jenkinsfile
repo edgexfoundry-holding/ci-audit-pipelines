@@ -37,7 +37,7 @@ pipeline {
             }
         }
 
-        stage {
+        stage('') {
             steps {
                 script {
                     echo "Loading [${env.CLAIR_SCRIPT}]..."
