@@ -14,8 +14,6 @@
 // limitations under the License.
 //
 
-loadGlobalLibrary()
-
 def imagesToScan = [
     'edgexfoundry/docker-core-command-go:1.0.0',
     'edgexfoundry/docker-core-command-go-arm64:1.0.0',

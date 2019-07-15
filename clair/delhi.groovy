@@ -14,8 +14,6 @@
 // limitations under the License.
 //
 
-loadGlobalLibrary()
-
 def imagesToScan = [
     'edgexfoundry/docker-edgex-ui-go-arm64:0.1.1',
     'edgexfoundry/docker-edgex-ui-go:0.1.1',
