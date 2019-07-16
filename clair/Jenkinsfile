@@ -83,7 +83,7 @@ pipeline {
             }
         }
 
-        stage('🐳 Clair Image Scan') {
+        stage('🐳 Edinburgh Image Scan') {
             steps {
                 script {
                     imagesToScan.each { image ->
