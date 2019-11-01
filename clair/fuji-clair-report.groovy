@@ -52,7 +52,7 @@ def images2Scan = [
     'nexus3.edgexfoundry.org:10004/docker-edgex-security-secretstore-setup-go-arm64:1.1.0',
     'nexus3.edgexfoundry.org:10004/docker-edgex-ui-go:1.1.0',
     'nexus3.edgexfoundry.org:10004/docker-edgex-ui-go-arm64:1.1.0',
-    'nexus3.edgexfoundry.org:10004/docker-edgex-volume:1.0.0',
+    'nexus3.edgexfoundry.org:10004/docker-edgex-volume:1.1.0',
     'nexus3.edgexfoundry.org:10004/docker-edgex-volume-arm64:1.1.0',
     'nexus3.edgexfoundry.org:10004/docker-export-client-go:1.1.0',
     'nexus3.edgexfoundry.org:10004/docker-export-client-go-arm64:1.1.0',
